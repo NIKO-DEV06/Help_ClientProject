@@ -23,8 +23,8 @@ const HeroSection = () => {
             Revolutionizing <br /> Everyday Work
           </h1>
           <p className="mt-[0.5rem]">
-            Everyday work is important, but it's also time consuming. We can
-            help.
+            Everyday work is important, but it&apos;s also time consuming. We
+            can help.
           </p>
           <div className="flex mt-[1.5rem] gap-[1rem]">
             <Image
