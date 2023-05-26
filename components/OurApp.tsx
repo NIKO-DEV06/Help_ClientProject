@@ -39,14 +39,14 @@ const OurApp = () => {
                 height={120}
                 width={120}
                 alt="appstore"
-                className="cursor-pointer"
+                className="cursor-pointer  h-[2.7rem]"
               />
               <Image
                 src={playStore}
                 height={120}
                 width={120}
                 alt="playstore"
-                className="cursor-pointer"
+                className="cursor-pointer  h-[2.7rem]"
               />
             </div>
           </div>

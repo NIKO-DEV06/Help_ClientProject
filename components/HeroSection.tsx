@@ -32,14 +32,14 @@ const HeroSection = () => {
               height={120}
               width={120}
               alt="appstore"
-              className="cursor-pointer"
+              className="cursor-pointer h-[2.7rem]"
             />
             <Image
               src={playStore}
               height={120}
               width={120}
               alt="playstore"
-              className="cursor-pointer"
+              className="cursor-pointe  h-[2.7rem]"
             />
           </div>
           <div className="flex mt-[1.5rem] gap-1 items-center">
