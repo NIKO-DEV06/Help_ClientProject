@@ -63,8 +63,11 @@ const Reviews = () => {
           ))}
         </motion.div>
         <div className="mt-[2.5rem] flex gap-[0.5rem] justify-center">
-          {reviews.map((_) => (
-            <div className="h-[0.6rem] w-[0.6rem] rounded-full border-[1px] border-[#2B4E8C]"></div>
+          {reviews.map((review) => (
+            <div
+              key={review.id}
+              className="h-[0.6rem] w-[0.6rem] rounded-full border-[1px] border-[#2B4E8C]"
+            ></div>
           ))}
         </div>
       </motion.div>
