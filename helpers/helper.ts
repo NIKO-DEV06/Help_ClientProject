@@ -4,6 +4,10 @@ import yardWork from "@/assets/Rectangle 4328-2.png";
 import plumbing from "@/assets/Rectangle 4328-3.png";
 import mounting from "@/assets/Rectangle 4328-4.png";
 import repairs from "@/assets/Rectangle 4328-5.png";
+import review1 from "@/assets/Ellipse 248.png";
+import review2 from "@/assets/Ellipse 248-1.png";
+import review3 from "@/assets/Ellipse 248-2.png";
+import review4 from "@/assets/Ellipse 248-3.png";
 
 export const services = [
   {
@@ -109,5 +113,53 @@ export const faq2 = [
     isVisible: false,
     title: "What categories of tasks can I perform on TaskRabbit?",
     desc: "Once you complete registration steps including creating your Tasker profile, make sure you draw your work area map and set schedule availability to show up in Client search results. If you don’t get task invitations, consider adjusting your rates, your work area, adding availability and additional categories, and editing your profile information to make sure it's clear to Clients which services you offer.",
+  },
+];
+
+export const reviews = [
+  {
+    id: "1",
+    name: "Soowon E.",
+    testimonial:
+      "Angel was the best handyman I've ever hired. He was proactive, positive, efficient and truly wanted to help with everything we needed. He's an expert that you can trust in any handman task. I'd definitely hire him again.",
+    img: review1,
+    starCount: 5,
+    date: "April 8,2023",
+  },
+  {
+    id: "2",
+    name: "Betsy.T",
+    testimonial:
+      "Punctual, great communication, great work. I look forward to working with Thomas again!",
+    img: review2,
+    starCount: 5,
+    date: "April 1,2022",
+  },
+  {
+    id: "3",
+    name: "Ray E.",
+    testimonial:
+      "Great cleaning! Reliable and was able to accommodate my schedule. Would recommend - thanks Nikolina!",
+    img: review3,
+    starCount: 4,
+    date: "April 1,2022",
+  },
+  {
+    id: "4",
+    name: "Seema.H",
+    testimonial:
+      "Irina's work was excellent and our home was left spotless. Great communication throughout. Highly recommended.",
+    img: review4,
+    starCount: 3,
+    date: "April 1,2022",
+  },
+  {
+    id: "5",
+    name: "Soowon E.",
+    testimonial:
+      "Angel was the best handyman I've ever hired. He was proactive, positive, efficient and truly wanted to help with everything we needed. He's an expert that you can trust in any handman task. I'd definitely hire him again.",
+    img: review1,
+    starCount: 5,
+    date: "April 8,2023",
   },
 ];

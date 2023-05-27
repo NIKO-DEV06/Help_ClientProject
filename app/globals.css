@@ -25,3 +25,7 @@
   transform-origin: center;
   left: 0;
 }
+
+.inputs {
+  @apply outline-none focus:border-black indent-[4rem] h-[3.7rem] w-[21rem] xl:w-[25rem] lg:h-[3rem] rounded-xl appearance-none text-[0.95rem] lg:text-[1rem] shadow-input-shadow;
+}

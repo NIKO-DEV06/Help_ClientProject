@@ -35,12 +35,11 @@ const FAQSection = () => {
       <h1 className="text-center text-[1.5rem] font-semibold pb-[2rem]">
         Frequently asked questions
       </h1>
-      <div className="flex flex-col md:flex-row gap-[1.5rem] md:scale-[0.85] lg:scale-100">
-        <div className="flex flex-col gap-[1rem] mx-auto">
+      <div className="scale-95 flex flex-col md:flex-row gap-[1rem] md:gap-[2rem] md:scale-[0.85] lg:scale-100 md:justify-center">
+        <div className="flex flex-col gap-[1rem] mx-auto md:mx-0">
           {faq1Items.map((faq, index) => (
             <motion.div
               whileTap={{ scale: 0.9 }}
-              whileHover={{ scale: 1.05 }}
               key={faq.id}
               onClick={() => toggleDescription(index, true)}
               className="cursor-pointer relative bg-white shadow-input-shadow rounded-2xl w-[25rem] md:w-[26rem] "
@@ -63,11 +62,10 @@ const FAQSection = () => {
             </motion.div>
           ))}
         </div>
-        <div className="flex flex-col gap-[1rem] mx-auto">
+        <div className="flex flex-col gap-[1rem] mx-auto md:mx-0">
           {faq2Items.map((faq, index) => (
             <motion.div
               key={faq.id}
-              whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => toggleDescription(index, false)}
               className="cursor-pointer relative bg-white shadow-input-shadow rounded-2xl w-[25rem] md:w-[26rem] "

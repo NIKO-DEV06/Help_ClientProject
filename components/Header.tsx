@@ -11,7 +11,7 @@ const Header = () => {
         <Image src={logo} height={100} width={100} alt="logo-image" />
       </Link>
       <div className="md:hidden">
-        <Image src={menu} height={45} width={45} alt="menu-image" />
+        <Image src={menu} height={35} width={35} alt="menu-image" />
       </div>
       <div className="hidden md:flex tracking-wider gap-[2rem] lg:gap-[2.5rem]">
         <Link className="link-with-underline" href={"/"}>

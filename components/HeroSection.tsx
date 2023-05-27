@@ -67,7 +67,7 @@ const HeroSection = () => {
                 <span className="opacity-60">Helpers</span>
               </p>
             </div>
-            <div className="bg-[#F0F4FF] md:w-[25rem] rounded-2xl py-[1rem] px-[2rem] mt-[1.5rem] flex flex-col gap-[0.5rem] max-h-[13rem] overflow-scroll shadow-md">
+            <div className="bg-[#F0F4FF] scale-[0.98] md:scale-100 md:w-[25rem] rounded-2xl py-[1rem] px-[2rem] mt-[1.5rem] flex flex-col gap-[0.5rem] max-h-[13rem] overflow-scroll shadow-md">
               {heroImages.map((hImage) => (
                 <div
                   key={hImage.id}
